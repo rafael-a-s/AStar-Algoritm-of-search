@@ -2,15 +2,7 @@
 {
   static void Main(string[] args)
   {
-    List<string> map = new List<string>
-    {
-      "A          ",
-      "--| |------",
-      "           ",
-      "   |-----| ",
-      "   |     | ",
-      "---|     |B"
-    };
+    List<string> map = Maps.map4();
 
     var start = new Grid();
     start.Y = map.FindIndex(x => x.Contains("A"));

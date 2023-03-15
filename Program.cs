@@ -2,7 +2,7 @@
 {
   static void Main(string[] args)
   {
-    List<string> map = Maps.map4();
+    List<string> map = Maps.map1();
 
     var start = new Grid();
     start.Y = map.FindIndex(x => x.Contains("A"));
@@ -21,6 +21,8 @@
 
     while (gridsActives.Any())
     {
+      //ordena pelo custo de distancia e retorna o primeiro
+      //Quando executado pela primera vez ele retora o elemento A
       var checkeLados = gridsActives.OrderBy(x => x.CustoDistancia).First();
 
       if (checkeLados.X == finish.X && checkeLados.Y == finish.Y)
@@ -49,9 +51,13 @@
         }
       }
 
+      //Adiciono o elm nos visitados
       gridsVisiteds.Add(checkeLados);
+      //Removo dos acties
       gridsActives.Remove(checkeLados);
 
+      //A parir do A eu chamo um metodo que retorna um conjunto de bloco
+      //que posso percorrer
       var gridPercorriveis = Grid.getWalkableGrids(map, checkeLados, finish);
 
       foreach (var blocoCaminhavel in gridPercorriveis)

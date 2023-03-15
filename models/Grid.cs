@@ -6,7 +6,7 @@ public class Grid
   public int Custo { get; set; }
   public int Distancia { get; set; }
   public int CustoDistancia => Custo + Distancia;
-  public Grid Filho { get; set; }
+  public Grid? Filho { get; set; }
 
   //Distância estimada, ignorando as paredes do nosso alvo.
   //Então, quantos ladrilhos à esquerda e à direita, para cima e para baixo, ignorando as paredes, para chegar lá.
@@ -15,7 +15,7 @@ public class Grid
     this.Distancia = Math.Abs(targetX - X) + Math.Abs(targetY - Y);
   }
 
-  private static List<Grid> getWalkableGrids(List<string> map, Grid currentGrid, Grid targetGrid)
+  public static List<Grid> getWalkableGrids(List<string> map, Grid currentGrid, Grid targetGrid)
   {
 
     var possibles = new List<Grid>(){

@@ -1,0 +1,15 @@
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/Astar
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/Astar.deps.json
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/Astar.runtimeconfig.json
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/Astar.dll
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/ref/Astar.dll
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/bin/Debug/net6.0/Astar.pdb
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.csproj.AssemblyReference.cache
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.AssemblyInfoInputs.cache
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.AssemblyInfo.cs
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.csproj.CoreCompileInputs.cache
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.dll
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/ref/Astar.dll
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.pdb
+/home/rafael/Documentos/ia-projects/Astar_c#/Astar/obj/Debug/net6.0/Astar.genruntimeconfig.cache

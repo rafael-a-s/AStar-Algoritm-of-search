@@ -20,7 +20,7 @@ Este repositório contém uma implementação do algoritmo A* (A Star) em C#. O 
 
 ## Como Usar
 
-1. **Clone o Repositório**: `git clone [https://github.com/seuprojeto/algoritmo-a-star-csharp.git](https://github.com/rafael-a-s/AStar-Algoritm-of-search.git)`
+1. **Clone o Repositório**: [git clone https://github.com/rafael-a-s/AStar-Algoritm-of-search.git](https://github.com/rafael-a-s/AStar-Algoritm-of-search.git)
 2. **Abra o Projeto**: Abra o projeto no seu ambiente de desenvolvimento C#.
 3. **Execute o Programa**: Compile e execute o programa para ver o algoritmo A* em ação.
 
